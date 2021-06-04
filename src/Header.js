@@ -6,7 +6,8 @@ class Header extends Component {
     const style = {
       width: this.props.width,
       backgroundColor: this.props.backColor
-    }
+      //in older react need this to bind the props
+          }
     return (
         <header style={style} className="Header-main">
         </header>
